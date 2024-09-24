@@ -1,27 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <meta name="description" content="A Product Designer with a difference">
+    <meta name="description" content="A Product Designer with a difference">
     <meta name="keywords" content="Design, UIUX, Product, Figma">
     <meta name="author" content="Nathaniel Essien">
     <link rel="shortcut icon" href="assets/favicon_io/favicon.ico" type="image/x-icon">
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.css" rel="stylesheet" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Playfair font -->
-    <link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
     <!-- Inter font -->
-   
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap"
+        rel="stylesheet">
     <title>Home - Ivy Edeke</title>
 </head>
+
 <body class="leading-6 snap-y bg-[#FDFDFD]" style="font-family: Inter, sans-serif">
 
     <nav class="bg-white fixed w-full z-20 top-0 start-0 border-b border-gray-200 dark:border-gray-600">
@@ -29,60 +37,75 @@
             <a href="index.html" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="assets/edeke1.png" class="h-16" alt="Flowbite Logo" />
             </a>
-        <div class="flex space-x-3 md:space-x-0 rtl:space-x-reverse">
-            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-teal-500 rounded-lg md:hidden hover:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-teal-200 dark:text-teal-400 dark:hover:bg-teal-700 dark:focus:ring-teal-600" aria-controls="navbar-sticky" aria-expanded="false">
-              <span class="sr-only">Open main menu</span>
-              <svg class="w-5 h-5 text-[#3CABA1]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-              </svg>
-          </button>
+            <div class="flex space-x-3 md:space-x-0 rtl:space-x-reverse">
+                <button data-collapse-toggle="navbar-sticky" type="button"
+                    class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-teal-500 rounded-lg md:hidden hover:bg-teal-100 focus:outline-none focus:ring-2 focus:ring-teal-200 dark:text-teal-400 dark:hover:bg-teal-700 dark:focus:ring-teal-600"
+                    aria-controls="navbar-sticky" aria-expanded="false">
+                    <span class="sr-only">Open main menu</span>
+                    <svg class="w-5 h-5 text-[#3CABA1]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 17 14">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M1 1h15M1 7h15M1 13h15" />
+                    </svg>
+                </button>
+            </div>
+            <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+                <ul
+                    class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md">
+                    <li>
+                        <a href="projects.html"
+                            class="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3CABA1] md:p-0 md:dark:hover:text-[#3CABA1] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
+                    </li>
+                    <li>
+                        <a href="index.html"
+                            class="block py-2 px-3 text-[#3CABA1] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3CABA1] md:p-0 md:dark:hover:text-[#3CABA1] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-          <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md">
-            <li>
-                <a href="projects.html" class="block py-2 px-3 text-black rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3CABA1] md:p-0 md:dark:hover:text-[#3CABA1] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Projects</a>
-              </li>
-            <li>
-              <a href="index.html" class="block py-2 px-3 text-[#3CABA1] rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#3CABA1] md:p-0 md:dark:hover:text-[#3CABA1] dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
-            </li>
-          </ul>
+    </nav>
+    <section class="md:w-11/12 mx-auto px-6 py-4 mt-24">
+        <div class="flex flex-col lg:flex-row items-center gap-6">
+            <img data-aos="fade-right" data-aos-anchor-placement="top-bottom" data-aos-duration="500"
+                data-aos-easing="ease-in-sine" class="lg:w-[50%]" src="assets/edeke.jpg" alt="Hero Image">
+
+            <div data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-duration="500"
+                data-aos-easing="ease-in-sine" class="grid gap-3">
+                <div>
+
+                    <h4 class="text-[#575252] text-[22px] font-semibold md:font-bold leading-[16px]"
+                        style="font-family:Playfair, serif">Hi there!</h4>
+                    <h1 class="text-4xl md:text-7xl font-bold" style="font-family: Inter, sans-serif">I'm <span
+                            class="text-[#3CABA1]">Ivy Edeke</span></h1>
+                </div>
+                <p class="text-2xl font-semibold">UI/UX designer</p>
+                <p>I am a dedicated UI/UX designer, committed to crafting seamless, human-centered digital experiences.
+                    My approach blends creativity with empathy, ensuring that every design not only looks beautiful but
+                    also works intuitively for users.</p>
+                <p>I am open to internships to apply my skills, fresh ideas, and problem-solving to real projects, eager
+                    to collaborate, learn, and deliver creative solutions that drive results.</p>
+                <div class="flex justify-between md:items-center w-1/4 gap-8 mt-6">
+                    <div class="flex items-center gap-6">
+
+                        <a target="_blank"
+                            class="bg-white w-fit !text-[#3CABA1] border-[#3CABA1] border hover:bg-[#3CABA1] hover:!text-white hover:border-white transition-all ease-linear duration-150 text-white py-1 px-2 rounded-md"
+                            href="https://linkedin.com/in/ivy-edeke-b6649622a"><i
+                                class="fa-brands fa-linkedin text-xl"></i></a>
+                        <a target="_blank"
+                            class="bg-white w-fit !text-[#3CABA1] border-[#3CABA1] border hover:bg-[#3CABA1] hover:!text-white hover:border-white transition-all ease-linear duration-150 text-white py-1 px-2 rounded-md"
+                            href="mailto:ivyedeke19@gmail.com"><i class="fa-regular fa-envelope text-xl"></i></a>
+                    </div>
+                    <a target="_blank"
+                        href="https://docs.google.com/document/d/1u7wqdxTjYeq3blYZojAjO3oCi-4H1NWa7sNL0qvQr88/edit?usp=sharing"
+                        class="w-fit py-2 px-4 bg-[#3CABA1] hover:bg-white hover:text-[#3CABA1] hover:border-[#3CABA1] hover:border hover:border-2 transition-all ease-linear duration-150 text-white rounded-md ">Resume</a>
+
+                </div>
+            </div>
+
         </div>
-        </div>
-      </nav>
-<section class="md:w-11/12 mx-auto px-6 py-4 mt-24">
-<div class="flex flex-col lg:flex-row items-center gap-6">
-    <img data-aos="fade-right"
-    data-aos-anchor-placement="top-bottom"
-        data-aos-duration="500"
-    data-aos-easing="ease-in-sine" class="lg:w-[50%]" src="assets/edeke.jpg" alt="Hero Image">
+    </section>
 
-    <div data-aos="fade-left"
-    data-aos-anchor-placement="top-bottom"
-        data-aos-duration="500"
-    data-aos-easing="ease-in-sine" class="grid gap-3">
-        <div>
-
-            <h4 class="text-[#575252] text-[22px] font-semibold md:font-bold leading-[16px]" style="font-family:Playfair, serif">Hi there!</h4>
-            <h1 class="text-4xl md:text-7xl font-bold" style="font-family: Inter, sans-serif">I'm <span class="text-[#3CABA1]">Ivy Edeke</span></h1>
-        </div>
-        <p class="text-2xl font-semibold">UI/UX designer</p>
-        <p>I am a dedicated UI/UX designer, committed to crafting seamless, human-centered digital experiences. My approach blends creativity with empathy, ensuring that every design not only looks beautiful but also works intuitively for users.</p>
-    <p>I am open to internships to apply my skills, fresh ideas, and problem-solving to real projects, eager to collaborate, learn, and deliver creative solutions that drive results.</p>
-    <div class="flex justify-between md:items-center w-1/4 gap-8 mt-6">  
-<div class="flex items-center gap-6">
-
-    <a class="bg-white w-fit !text-[#3CABA1] border-[#3CABA1] border hover:bg-[#3CABA1] hover:!text-white hover:border-white transition-all ease-linear duration-150 text-white py-1 px-2 rounded-md" href=""><i class="fa-brands fa-linkedin text-xl"></i></a>
-    <a class="bg-white w-fit !text-[#3CABA1] border-[#3CABA1] border hover:bg-[#3CABA1] hover:!text-white hover:border-white transition-all ease-linear duration-150 text-white py-1 px-2 rounded-md" href=""><i class="fa-regular fa-envelope text-xl"></i></a>          
-</div>
-<a target="_blank" href="https://docs.google.com/document/d/1u7wqdxTjYeq3blYZojAjO3oCi-4H1NWa7sNL0qvQr88/edit?usp=sharing" class="w-fit py-2 px-4 bg-[#3CABA1] hover:bg-white hover:text-[#3CABA1] hover:border-[#3CABA1] hover:border hover:border-2 transition-all ease-linear duration-150 text-white rounded-md ">Resume</a>
-    
-    </div>
-    </div>
-
-</div>
-</section>
-
-<!-- <section id="about" class="bg-slate-50 py-8 mt-6">
+    <!-- <section id="about" class="bg-slate-50 py-8 mt-6">
 
     <div class="md:w-11/12 mx-auto px-6 py-4 grid gap-4">
         <h2 class="text-center text-3xl font-bold">About Me</h2>
@@ -91,25 +114,26 @@
     </div>
 </section> -->
 
-<footer class="px-4 my-6">
-   <div class="mx-auto w-11/12">
+    <footer class="px-4 my-6">
+        <div class="mx-auto w-11/12">
 
-       <span class="block">© 2024. All Rights Reserved to <a href="" class="hover:underline">Ivy Edeke</a>. </span>
-   </div>
+            <span class="block">© 2024. All Rights Reserved to <a href="" class="hover:underline">Ivy Edeke</a>. </span>
+        </div>
 
-</footer>
-
-
-   
-     
+    </footer>
 
 
 
 
 
-   <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
-   <script>
-    AOS.init();
-  </script>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>
