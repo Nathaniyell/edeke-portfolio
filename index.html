@@ -117,7 +117,8 @@
     <footer class="px-4 my-6">
         <div class="mx-auto w-11/12">
 
-            <span class="block">© 2024. All Rights Reserved to <a href="" class="hover:underline">Ivy Edeke</a>. </span>
+            <span class="block">© <span id="currentYear"></span>. All Rights Reserved to <a href=""
+                    class="hover:underline">Ivy Edeke</a>. </span>
         </div>
 
     </footer>
@@ -131,6 +132,11 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/flowbite@2.5.1/dist/flowbite.min.js"></script>
+    <script>
+        const currentYear = new Date().getFullYear()
+
+        document.getElementById("currentYear").innerText = currentYear
+    </script>
     <script>
         AOS.init();
     </script>
